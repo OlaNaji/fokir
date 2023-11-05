@@ -829,11 +829,19 @@
         border: none;
     }
 
+    .about-image{
+        margin-bottom: 5%;
+    }
+
     .about-img{
+        width: 80%;
         justify-content: space-evenly;
         flex-direction: column;
     }
 
+    .about-img img{
+        width: 100%;
+    }
     .about-caption{
         width: 80%;
         margin: auto;
@@ -876,6 +884,10 @@
         align-items: center;
     }
 
+    .portfolio-list-item{
+        padding: 10px;
+    }
+
     .portfolio-image-list-item{
         position: relative;
         margin: 10px;
@@ -910,8 +922,8 @@
 
     /*testimonial*/
     #testimonial{
-        padding: 20px;
-        height: 150vh;
+        justify-content: flex-start;
+        margin-top: 15%;
     }
     .test-card-container{
         position: relative;
@@ -941,6 +953,16 @@
     .blog-list-item{
         margin: 20px;
         width: 70%;
+    }
+
+
+    /*form*/
+    .form-list-item-first{
+        flex-direction: column;
+    }
+
+    .form-button{
+        width: 50%;
     }
 }
 
